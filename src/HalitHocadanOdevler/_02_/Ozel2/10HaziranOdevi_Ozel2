@@ -1,0 +1,69 @@
+SPECIAL JAVA QUESTIONS - 2
+
+1- Aşağıdaki düzende tek line verilen 5 adet eleman , aşağıdaki okuma ile
+ilki 3 ,ikincisi 2 elemanlı 2 adet diziye atılmaktadır.Bu kod vardır.
+İkinci dizinin tüm elemanları 1.nin içerisinde var ise true, yok ise false
+gönderiniz.
+1 2 3 2 3 → 1.dizi : 1,2,3 2.Dizi : 2,3 => true
+10 20 3 1 2 → 1.dizi : 10 20 3 2.Dizi : 1,2 => false
+1 2 3 1 2 → 1.dizi : 1 2 3 2.Dizi : 1 2 => true //TODO tamam
+
+2- String bir array verildiğinde;
+Eger String Orange içeriyorsa bütün Orange leri Apple çeviriniz.
+Örnek:
+Array : Peach , Berry , Orange , WaterMelon , Orange
+Result böyle olmalı --> : Peach , Berry , Apple , WaterMelon , Apple
+Arrayi print ediniz. //TODO tamam
+
+3- a ve b den oluşan 2 int array verildiğinde, aynı ilk öğeye sahiplerse veya aynı son öğeye
+sahiplerse true değerini döndürünüz.
+Her iki arrayin lengthi(öğe sayısı) 1 veya daha fazla olacaktır.
+commonEnd([1, 2, 3], [7, 3]) → true
+commonEnd([1, 2, 3], [7, 3, 2]) → false
+commonEnd([1, 2, 3], [1, 3]) → true //TODO tamam
+
+4- Bir veya daha fazla öğe içeren int array verildiğinde, arraydeki en büyük ve en küçük öğeler
+arasındaki farkı return ediniz.
+Not: the built-in Math.min(v1, v2) ve Math.max(v1, v2) methodları en küçük ve en büyük
+öğeleri return eder.
+bigDiff([10, 3, 5, 6]) → 10-3 result = 7
+bigDiff([7, 2, 10, 9]) → 10-2 result = 8
+bigDiff([2, 10, 7, 1]) → 10-1 result = 9
+return tipi int dir.
+
+5- {{1,2,3}, {2,3,1} , {5,5,5} , {2,10,3}}
+int 2D arrayini oluşturunuz.
+2D arrayinden max number print ediniz.
+
+6- {{1,2,3}, {2,3,1} , {5,5,5} , {2,1,3}}
+int 2D arrayini oluşturunuz.
+2D arrayinden min number print ediniz.
+
+7- Verilen int arrayde;
+duplicated(tekrarlanan) öğeleri array den kaldırınız.
+non-duplicated(tekrarlanmayan) öğeleri print ediniz.
+Örnek:
+Array is 1,2,2,2,3,3,3,4,4,4,5,5,5
+result [1,2,3,4,5] olmalı
+NOT: resultu print ederken for loop kullanmayınız.
+System.out.println(Arrays.toString(your_array_name)); kullanınız.
+
+8- Verilen String arrayde;
+String arrayi ters çeviriniz.
+ters arrayi yazdırınız.
+NOT:
+Arrays.toString(your_array_name); <--- kullanınız.
+
+9- Bir int array verildiğinde, array uzunluğu 1 veya daha fazlaysa ve ilk öğe ile son öğe eşitse
+true değerini yazdırınız.
+sameFirstLast([1, 2, 3]) → false
+sameFirstLast([1, 2, 3, 1]) → true
+sameFirstLast([1, 2, 1]) → true
+sameFirstLast([1]) → true
+sadece true veya false print ediniz.
+
+10- String 2D array oluşturunuz.
+{{"$12" , "$22" , "5$"},{"€9" , "€40" , "$1" , "$2"}, {"€12"}}
+String de $ varsa 3.2 ile çarpın
+String de € varsa 4.2 ile çarpın
+double return ediniz.

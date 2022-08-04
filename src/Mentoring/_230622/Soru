@@ -1,0 +1,7 @@
+- Animal isimli bir interface tanimlayin. Icinde livesIn(), walks(), eats() methodlari olsun.
+- Wild isimli Animal interface'ini extend eden baska bir interface daha tanimlayin.
+  Icinde  hunts(), friendlyToHumans() methodlari olsun
+- Domestic isimli Animal interface'ini extend eden baska bir interface daha tanimlayin.
+  Icinde name(), takeCare() methodlari olsun.
+- Wild ve Domestic interfacelerini implement eden birer tane class olusturun
+- Main olusturup bu classlaridan nesneler olusturup methodlarini cagirin
